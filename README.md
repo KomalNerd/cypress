@@ -9,7 +9,7 @@ Below are the test cases that I have thought of
 | Test Case 1  | Verify that user can navigate to "DirectShifts" job application page by using the direct url |
 | Test Case 2  | Verify that the url is loading within the permisibile load time specified by the bussiness |
 | Test Case 3  | Verify that the url is loading across different browser like chrome, safari, edge and opera |
-| Test Case 4  | Verify that url is loading in mobile and tablets browers |
+| Test Case 4  | Verify that url is loading in mobile and tablets browsers |
 | Test Case 5  | Verify that appropriate error is thrown when the websites server is down |
 | Test Case 6  | Verify that appropriate error is thrown when the websites fails to load after crossing the timeout limit |
 | Test Case 7  | Verify that all the labels and testboxes on the DirectShifts page are as per the specification |
@@ -49,5 +49,22 @@ Below are the test cases that I have thought of
 | Test Case 43 | Verify that User can fill all the details and apply for the Job |
 | Test Case 44 | Verify that User cannot use numbers in start of name |
 | Test Case 45 | Verify that User cannot use special characters in name field |
+| Test Case 46 | Verify that no security sensitive content is displayed on the page |
+| Test Case 47 | Verify that no security sensitive content is displayed on the page as part of any action or error|
+| Test Case 48 | Verify that footer content is as per the requirement |
+| Test Case 49 | Verify that click on directshift logo in the footer takes user to home page |
+| Test Case 50 | Verify that click on email or phone links in the footer takes user to inbuilt apps of the system |
+| Test Case 51 | Verify that all different type of files can be uploaded via file upload option |
+| Test Case 52 | Verify that there is limit to the size of file that can be uploaded |
+| Test Case 53 | Verify that all USA states are present in the state dropdown |
+| Test Case 54 | Verify that all occupation types are shown in the occupation downdown |
+| Test Case 55 | Verify that all specialities are shown under the specialties dropdown which is mapped to a specific occupation |
+| Test Case 56 | Verify that click on terms and privacy links navigates user to respective pages |
 
-## Please find
+## Please find the steps to use this repo
+
+1.  Install node on your machine
+2.  Git clone the repo on your local
+3.  run "npm i " to install all the dependencies
+4.  To run different commands use "Scripts" under package.json" ( format will be "npm run <command>" )
+5. One test case with captha is intentionally failed
