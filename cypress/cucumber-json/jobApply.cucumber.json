@@ -1,0 +1,280 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "All somke test cases for provided url",
+    "line": 1,
+    "id": "all-somke-test-cases-for-provided-url",
+    "tags": [],
+    "uri": "jobApply.feature",
+    "elements": [
+      {
+        "id": "all-somke-test-cases-for-provided-url;verify-that-all-the-labels-and-testboxes-on-the-directshifts-page-are-as-per-the-specification",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "verify that all the labels and testboxes on the DirectShifts page are as per the specification",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigates to the direct shift url",
+            "result": {
+              "status": "passed",
+              "duration": 4710000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "direct shift job apply page loads",
+            "result": {
+              "status": "passed",
+              "duration": 48000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "user should see all the appropriate labels",
+            "result": {
+              "status": "passed",
+              "duration": 133000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user should see all the appropriate textboxes",
+            "result": {
+              "status": "passed",
+              "duration": 31000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "all-somke-test-cases-for-provided-url;verify-that-user-is-navigated-to-the-sign-in-page-on-click-on-sign-in-button",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Verify that user is navigated to the sign in page on click on sign in button",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigates to the direct shift url",
+            "result": {
+              "status": "passed",
+              "duration": 2155000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "user click on the sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 3564000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "user should be navigated to sign in page",
+            "result": {
+              "status": "passed",
+              "duration": 55000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "all-somke-test-cases-for-provided-url;verify-that-an-error-is-thrown-in-the-apply-form-when-user-tries-to-click-apply-now-button-without-entering-all-the-mandatory-fields",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Verify that an error is thrown in the Apply form when user tries to click Apply Now button without entering all the mandatory fields",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigates to the direct shift url",
+            "result": {
+              "status": "passed",
+              "duration": 3401000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "user clicks the apply now button",
+            "result": {
+              "status": "passed",
+              "duration": 211000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "Error saying that please fill out this field shall be thrown",
+            "result": {
+              "status": "passed",
+              "duration": 45000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "all-somke-test-cases-for-provided-url;verify-that-asterisk-is-present-against-all-the-mandatory-fields",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Verify that asterisk is present against all the mandatory fields",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigates to the direct shift url",
+            "result": {
+              "status": "passed",
+              "duration": 1532000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "asterisk shall be present against all the mandatoryField",
+            "result": {
+              "status": "passed",
+              "duration": 102000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "all-somke-test-cases-for-provided-url;verify-that-asterisk-is-not-present-against-the-non-mandatory-fields",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Verify that asterisk is not present against the non mandatory fields",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigates to the direct shift url",
+            "result": {
+              "status": "passed",
+              "duration": 1870000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "asterisk shall not be present against all the non mandatoryField",
+            "result": {
+              "status": "passed",
+              "duration": 104000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "all-somke-test-cases-for-provided-url;verify-that-user-can-use-upload-feature",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Verify that user can use upload feature",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigates to the direct shift url",
+            "result": {
+              "status": "passed",
+              "duration": 1403000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "user clicks on the upload button and uploads a pdf file",
+            "result": {
+              "status": "passed",
+              "duration": 72000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "all-somke-test-cases-for-provided-url;verify-that-user-can-fill-all-the-details-and-apply-for-the-job",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Verify that user can fill all the details and apply for the Job",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigates to the direct shift url",
+            "result": {
+              "status": "passed",
+              "duration": 1351000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "user Fills valid details in form",
+            "result": {
+              "status": "failed",
+              "error_message": "Error: Syntax error, unrecognized expression: . recaptcha-checkbox-border\n    at Sizzle.error (https://staging.directshifts.com/__cypress/runner/cypress_runner.js:98394:8)\n    at Sizzle.tokenize (https://staging.directshifts.com/__cypress/runner/cypress_runner.js:99046:11)\n    at Sizzle.select (https://staging.directshifts.com/__cypress/runner/cypress_runner.js:99473:20)\n    at Function.Sizzle [as find] (https://staging.directshifts.com/__cypress/runner/cypress_runner.js:97698:9)\n    at jQuery.fn.init.find (https://staging.directshifts.com/__cypress/runner/cypress_runner.js:99729:11)\n    at new jQuery.fn.init (https://staging.directshifts.com/__cypress/runner/cypress_runner.js:99844:40)\n    at Object.query (https://staging.directshifts.com/__cypress/runner/cypress_runner.js:171711:10)\n    at $Cy.$$ (https://staging.directshifts.com/__cypress/runner/cypress_runner.js:152237:65)\n    at <unknown> (https://staging.directshifts.com/__cypress/runner/cypress_runner.js:148643:18)\n    at Object.subjectFn (https://staging.directshifts.com/__cypress/runner/cypress_runner.js:159523:16)\n    at $Cy.verifyUpcomingAssertions (https://staging.directshifts.com/__cypress/runner/cypress_runner.js:140576:31)\n    at onRetry (https://staging.directshifts.com/__cypress/runner/cypress_runner.js:159514:15)\n    at retryQuery (https://staging.directshifts.com/__cypress/runner/cypress_runner.js:159527:10)\n    at <unknown> (https://staging.directshifts.com/__cypress/runner/cypress_runner.js:159677:17)\nFrom previous event:\n    at CommandQueue.runCommand (https://staging.directshifts.com/__cypress/runner/cypress_runner.js:159636:8)\n    at next (https://staging.directshifts.com/__cypress/runner/cypress_runner.js:159836:19)\n    at <unknown> (https://staging.directshifts.com/__cypress/runner/cypress_runner.js:159857:16)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "user clicks the apply now button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "user should be navigated to the apply confirmation page",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

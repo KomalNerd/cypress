@@ -1,0 +1,18 @@
+{
+  "jobName": "Physicians - Hospital/Telehealth Openings",
+  "jobLocation": "Washington, DC",
+  "signinURL": "https://staging.directshifts.com/users/sign_in",
+  "text_login": "Log in",
+  "errorMsgForBlankInput": "Please fill out this field.",
+  "validFormData": {
+    "firstname": "komal",
+    "lastname": "kumari",
+    "email": "kkp2476@gmail.com",
+    "phone": "8920143668",
+    "zipcode": "560066",
+    "state": "AL - Alabama",
+    "occupation": "NurseMidwife",
+    "speciality": "Certified Nurse Midwife"
+  },
+  "messageWhenApplicationIsSent": "Your application has been sent!"
+}
