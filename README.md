@@ -4,8 +4,8 @@ This repository basically covers complete automation of the url : https://stagin
 
 Below are the test cases that I have thought of 
 
-| Sl No. | Test Cases |
-| ------ | -----------|
+| Sl No.       | Test Cases |
+| ------------ | -----------|
 | Test Case 1  | Verify that user can navigate to "DirectShifts" job application page by using the direct url |
 | Test Case 2  | Verify that the url is loading within the permisibile load time specified by the bussiness |
 | Test Case 3  | Verify that the url is loading across different browser like chrome, safari, edge and opera |
