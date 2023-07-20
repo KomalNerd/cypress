@@ -66,5 +66,5 @@ Below are the test cases that I have thought of
 1.  Install node on your machine
 2.  Git clone the repo on your local
 3.  run "npm i " to install all the dependencies
-4.  To run different commands use "Scripts" under package.json" ( format will be "npm run <command>" )
+4.  To run different commands use "Scripts" under package.json" ( format will be "npm run command" )
 5. One test case with captha is intentionally failed
