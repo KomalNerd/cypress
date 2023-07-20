@@ -6,7 +6,6 @@
   "scripts": {
     "headedRun": "cypress open --e2e --browser chrome",
     "headlessRun": "cypress run --spec cypress/e2e/*.feature",
-    "regressionSuiteRun": "cypress run --env tags=@regression",
     "generateReportInWin": "node cucumber-html-report.js && start ./reports/cucumber-htmlreport.html/index.html",
     "generateReportInMac": "node cucumber-html-report.js && open ./reports/cucumber-htmlreport.html/index.html"
   },
